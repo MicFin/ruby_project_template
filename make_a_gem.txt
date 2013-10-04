@@ -8,8 +8,10 @@
   RAKEFILE edit the following
   gem.summary = %Q{Checks triangle info}
   gem.description = %Q{Checks difference shapes info}
+  
   GEMFILE replace last gem with
   gem "simplecov"
+  
   FILES
   edit FOO_spec.rb and FOO.rb
   
