@@ -158,5 +158,12 @@ API_KEY=9i9i8u8uy8u9
 ```
 
 In your program, add the following near the top:
-
 ```ruby
+require 'dotenv'
+Detonv.load
+```
+
+Now whatever you set in your .env file is available in your ENV constant hash.
+```ruby
+ENV["API_KeY"]
+```
