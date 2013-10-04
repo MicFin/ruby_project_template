@@ -165,5 +165,5 @@ Detonv.load
 
 Now whatever you set in your .env file is available in your ENV constant hash.
 ```ruby
-ENV["API_KeY"]
+ENV["API_KEY"]
 ```
